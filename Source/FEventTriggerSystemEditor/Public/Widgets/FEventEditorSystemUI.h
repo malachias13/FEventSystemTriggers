@@ -27,4 +27,8 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Triggers, meta = (AllowPrivateAccess = "true"))
 	UFunction* FUNfunc;
 
+private:
+	UFUNCTION(BlueprintCallable)
+	void UfunctionNull(UFunction* function);
+
 };
