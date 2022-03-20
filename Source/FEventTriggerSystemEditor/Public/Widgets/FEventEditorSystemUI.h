@@ -15,20 +15,16 @@ class FEVENTSYSTEMEDITOR_API UFEventEditorSystemUI : public UEditorUtilityWidget
 	GENERATED_BODY()
 	
 private:
-	/* A UFuntion pointer that stores the SFX function.*/
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Triggers, meta = (AllowPrivateAccess = "true"))
-	UFunction* SFXfunc;
 
-	/* A UFuntion pointer that stores the VFX function.*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Triggers, meta = (AllowPrivateAccess = "true"))
-	UFunction* VFXfunc;
+	FString SFXName;
 
-	/* A UFuntion pointer that stores the Functional function.*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Triggers, meta = (AllowPrivateAccess = "true"))
-	UFunction* FUNfunc;
+	FString VFXName;
 
-private:
-	UFUNCTION(BlueprintCallable)
-	void UfunctionNull(UFunction* function);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Triggers, meta = (AllowPrivateAccess = "true"))
+	FString FUNName;
+
+
 
 };
