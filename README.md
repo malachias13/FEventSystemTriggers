@@ -2,7 +2,7 @@
 
 A simple way to assign blueprint and C++ functions to trigger box instances in the editor.
 
-# ** Video Tutorial **
+# **Video Tutorial**
 https://www.youtube.com/playlist?list=PLhRIVJvpwMLD5wBY6NCWC3XgIX7mcmc_T
 
 ![FESystem_LevelBoxes](https://user-images.githubusercontent.com/69220988/159149425-c9678cc1-8bae-4c2f-95ae-21d93f55edb3.png)
