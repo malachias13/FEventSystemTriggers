@@ -2,6 +2,9 @@
 
 A simple way to assign blueprint and C++ functions to trigger box instances in the editor.
 
+# **Marketplace**
+https://www.unrealengine.com/marketplace/en-US/product/fevent-system-triggers
+
 # **Video Tutorial**
 https://www.youtube.com/playlist?list=PLhRIVJvpwMLD5wBY6NCWC3XgIX7mcmc_T
 
